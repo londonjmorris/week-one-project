@@ -13,10 +13,6 @@
   font-family: 'Merriweather';
 }
 
-body{
-  background-color: #F2F1E8;
-}
-
 nav{
   height: 70px;
   background-color: #FFFFFF;
@@ -54,6 +50,7 @@ li a{
 header{
   height: 310px;
   text-align: center;
+  background-color: #F2F1E8;
 }
 
 h1{
@@ -67,5 +64,112 @@ article{
 }
 
 p{
-  font-size: 20px;
+  font-size: 19px;
+  line-height: 38px;
+}
+
+.intro img{
+  height: 120px;
+  width: 160px;
+  float: left;
+  margin: 0px 30px 10px 0px;
+}
+
+#intro_p{
+  display: inline;
+}
+
+.above_parallax{
+  height: 715px;
+  background-color: #F2F1E8;
+}
+
+blockquote{
+  font-style: italic;
+  margin: 40px 0;
+  border-left: 2px solid #978774;
+  padding-left: 32px;
+}
+
+h4{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+h2{
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.parallax{
+  padding: 133px;
+  text-align: center;
+  height: 320px;
+  background-image: url("../images/background-3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.below_parallax{
+  height: 750px;
+  background-color: #F2F1E8;
+}
+
+.left{
+  float: left;
+  width: 900px;
+  padding-top: 40px;
+  padding-left: 210px;
+  padding-right: 30px;
+}
+
+.table_container{
+  margin-top: 70px;
+}
+
+aside{
+  float: right;
+  display: inline;
+  width: 380px;
+  padding-top: 100px;
+  padding-right: 205px;
+}
+
+aside img{
+  height: 120px;
+  width: 160px;
+}
+
+aside p{
+  margin-top: 16px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+table td, th{
+  text-align: center;
+  border: 1px solid black;
+  height: 60px;
+  padding: 18px;
+}
+
+.shade{
+  background-color: #F2EADD;
+}
+
+footer{
+  background-color: #2B2F26;
+  padding: 42px 32px;
+}
+
+footer p{
+  color: #F2F1E8;
+  font-size: 16px;
+  line-height: normal;
 }
